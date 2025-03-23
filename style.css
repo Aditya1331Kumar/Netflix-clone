@@ -1,0 +1,232 @@
+body {
+    padding: 0px;
+    margin-top: 7px;
+    background-color: black;
+}
+.main {
+    background-image: url(assets/gola.png);
+    position: relative;
+    /* background-size: 100vw; */
+    background-position: center center;
+    height: 90vh;
+}
+.boxa {
+    height: 90vh;
+    width: 100%;
+    opacity: 0.63;
+    position: absolute;
+    background-color: black;
+    top: 0;
+}
+.moli{
+    margin: 20px;
+}
+.hero {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+}
+.w {
+    font-size: 50px;
+    padding: 10px;
+    font-weight: bolder;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.x {
+    font-size: 20px;
+    font-weight: bolder;
+}
+.m {
+    color: white;
+    padding-left: 30px;
+}
+.zero {
+    border-radius: 100px;
+    background-color: white;
+    padding: 7px 30px;
+    border: 4px solid blue;
+    cursor: pointer;
+}
+.zero:hover {
+    background-color: rgb(33, 33, 53);
+    color: brown;
+}
+.life:hover {
+    background-color: rgb(94, 94, 144);
+    color: brown;
+}
+.life {
+    padding: 7px 30px;
+    background-color: red;
+    border: 4px solid blue;
+    border-radius: 100px;
+}
+nav {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    max-width: 85vw;
+    margin: auto;
+    position: relative;
+    z-index: 10;
+    padding-top: 7px;
+}
+.mid {
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.inp {
+    color: rgb(0, 0, 0);
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: white;
+    font-weight: bolder;
+    padding: 10px 40px;
+    border-radius: 100px;
+    border: 4px solid blue;
+}
+.inp:hover {
+    background-color: aquamarine;
+}
+.super:hover {
+    background-color: aquamarine;
+    color: black;
+}
+.super {
+    color: white;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: red;
+    font-weight: bolder;
+    padding: 10px 40px;
+    margin-left: 30px;
+    border: 4px solid blue;
+    border-radius: 100px;
+}
+.me {
+    font-size: 20px;
+    width: 100%;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.move {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+.qwer {
+    border: 4px solid rgb(84, 1, 249);
+    border-radius: 50px;
+    background-color: aqua;
+    /* padding: 3px; */
+    margin: auto;
+    width: 170px;
+}
+.qwe {
+    border: 4px solid rgb(16, 249, 7);
+    border-radius: 50px;
+    background-color: aqua;
+    /* padding: 3px; */
+    margin: auto;
+    width: 170px;
+}
+.two {
+    margin: 4px;
+}
+.qwe:hover {
+    border: 9px solid rgb(34, 0, 255);
+}
+.two:hover {
+    border: 9px solid yellow;
+}
+.qwer:hover {
+    border: 9px solid rgb(9, 255, 83);
+}
+.glow {
+    display: flex;
+    margin-top: 15px;
+}
+.sep {
+    background-color: rgb(35, 34, 34);
+    height: 7px;
+    margin: 3px;
+}
+.faq {
+    color: white;
+    justify-self: center;
+}
+.faq h2 {
+    text-align: center;
+    font-size: 35px;
+}
+.xox {
+    background-color: rgb(36, 37, 37);
+    width: 70vw;
+    justify-content: space-between;
+    display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    margin: 7px;
+    cursor: pointer;
+}
+.xox:hover {
+    background-color: rgb(22, 5, 62);
+    height: 60px;
+    color: rgb(15, 217, 62);
+}
+.svg:hover {
+    color: rgb(18, 217, 44);
+}
+.gol {
+    font-size: larger;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* background-color: rgb(36, 37, 37); */
+}
+svg {
+    /* background-color: rgb(36, 37, 37); */
+}
+.bholu {
+    color: white;
+    width: 70vw;
+    justify-self: center;
+    padding: 30px;
+}
+.fine {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+}
+.toto {
+    margin: 10px;
+}
+.bholu h4:hover {
+    color: blue;
+    font-size: larger;
+}
+.toto:hover {
+    color: blue;
+    font-size: larger;
+}
+.bholu h3 {
+    color: rgb(126, 8, 237);
+    font-size: larger;
+}
+.son {
+    border: 5px solid rgb(244, 5, 5);
+    height: 150px;
+    width: 240px;
+    margin: 10px;
+}
+.son:hover{
+    border: 5px solid rgb(0, 131, 253);
+}m
